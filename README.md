@@ -1,24 +1,24 @@
-JapaneseKeyboardKit [![Build Status](https://img.shields.io/travis/kishikawakatsumi/JapaneseKeyboardKit/master.svg?style=flat)](https://travis-ci.org/kishikawakatsumi/JapaneseKeyboardKit) [![Apache License 2.0](https://img.shields.io/badge/license-Apache%202.0-yellow.svg?style=flat)](https://www.tldrlegal.com/l/apache2)
+JapaneseKeyboardKit [![Apache License 2.0](https://img.shields.io/badge/license-Apache%202.0-yellow.svg?style=flat)](https://www.tldrlegal.com/l/apache2)
 ===================
 
 Sample implementation for iOS Custom Keyboard Extension with [Mozc](https://code.google.com/p/mozc/) (Google Japanese Input)
 
-See also https://github.com/kishikawakatsumi/Mozc-for-iOS
+See also https://github.com/yusakuw/Mozc-for-iOS / https://github.com/kishikawakatsumi/Mozc-for-iOS
 
-<img src="https://raw.githubusercontent.com/kishikawakatsumi/JapaneseKeyboardKit/master/ScreenShots/ss_01.png" width="225px" style="width: 225px;" />&nbsp;
-<img src="https://raw.githubusercontent.com/kishikawakatsumi/JapaneseKeyboardKit/master/ScreenShots/ss_02.png" width="400px" style="width: 400px;" />
+<img src="https://raw.githubusercontent.com/yusakuw/JapaneseKeyboardKit/master/ScreenShots/ss_01.png" width="225px" style="width: 225px;" />&nbsp;
+<img src="https://raw.githubusercontent.com/yusakuw/JapaneseKeyboardKit/master/ScreenShots/ss_02.png" width="400px" style="width: 400px;" />
 
 ### System Requirements
 
-    Mac OS X 10.9+
-    Xcode 6.0+
-    iOS SDK 8.0+
-    Python 2.7.5 (for build Mozc)
+    Mac OS X 10.14
+    Xcode 10
+    iOS SDK 12
+    Python 2.7.10
 
 
 ### Tested Environments
-    iPhone 6 Plus, iOS 8.0.2
-    iPhone 4S, iOS 8.0.2
+
+    iPhone SE, iOS 12.3
 
 
 ### Usage
@@ -26,7 +26,7 @@ See also https://github.com/kishikawakatsumi/Mozc-for-iOS
 #### Getting the code
 
 ```
-$ git clone git@github.com:kishikawakatsumi/JapaneseKeyboardKit.git --recursive
+$ git clone https://github.com/yusakuw/JapaneseKeyboardKit.git --recursive
 $ cd JapaneseKeyboardKit
 ```
 
