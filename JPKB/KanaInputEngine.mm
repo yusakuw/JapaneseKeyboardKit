@@ -8,9 +8,7 @@
 
 #import "KanaInputEngine.h"
 
-#if !TARGET_IPHONE_SIMULATOR
 #define USE_MOZC 1
-#endif
 
 #if USE_MOZC
 

@@ -10,7 +10,7 @@ See also https://github.com/yusakuw/Mozc-for-iOS / https://github.com/kishikawak
 
 ### System Requirements
 
-    Mac OS X 10.14
+    macOS 10.15 Catalina
     Xcode 10
     iOS SDK 12
     Python 2.7.10
@@ -18,7 +18,7 @@ See also https://github.com/yusakuw/Mozc-for-iOS / https://github.com/kishikawak
 
 ### Tested Environments
 
-    iPhone SE, iOS 12.3
+    iPhone SE, iOS Simulator 13.4
 
 
 ### Usage
@@ -55,7 +55,8 @@ $ open JapaneseKeyboardKit.xcodeproj
 
 ### Limitation
 
-Mozc works on a device only, does not work on the simulator.
+~~Mozc works on a device only, does not work on the simulator.~~
+Now you can run your it on the iOS simulators.
 
  
 [Apache]: http://www.apache.org/licenses/LICENSE-2.0

@@ -9,9 +9,7 @@
 #import "InputManager.h"
 #import "InputCandidate.h"
 
-#if !TARGET_IPHONE_SIMULATOR
 #define USE_MOZC 1
-#endif
 
 #if USE_MOZC
 
@@ -115,6 +113,7 @@ void MakeSegmentsForPrediction(const string key, mozc::Segments *segments) {
 @end
 
 #else
+// check App Transport Security settings for "Google CGI API for Japanese Input"
 
 @interface InputManager ()
 
